@@ -29,8 +29,8 @@ def computeTFIDF(TF,IDF):
     print(tfidf)
     return tfidf
 
-documentA ='the man went out for a walk'
-documentB="the man went out but he never came back coz he dead motherfucerrrr"
+documentA ='sample text 1'
+documentB="sample text 2"
 
 BowA=documentA.split()
 BowB=documentB.split()
